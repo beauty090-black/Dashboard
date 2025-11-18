@@ -1,12 +1,12 @@
 import React from "react";
-import "../styles/Mentorcard.css";
+import "../styles/MentorCard.css"; // Correct casing
 
-export default function MentorCard({ name, role }){
+export default function MentorCard({ name, role }) {
   return (
     <div className="mentor-card">
       <div className="mentor-left">
-        <img src="/src/assets/avatar-2 . svg" alt={name} />
-        <div>
+        <img src="/src/assets/avatar-2.svg" alt={name} /> {/* Removed extra spaces */}
+        <div className="mentor-info">
           <div className="mentor-name">{name}</div>
           <div className="mentor-role">{role}</div>
         </div>

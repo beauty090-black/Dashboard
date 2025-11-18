@@ -26,7 +26,7 @@ export default function Sidebar(){
               </div>
             </div>
             <div className="friend">
-              <img src="/src/assets/avatar-2 . svg" alt="f"/>
+              <img src="/src/assets/avatar-2.svg" alt="f"/>
               <div>
                 <div className="friend-name">Sir Dandy</div>
                 <div className="friend-role">Old Friend</div>
