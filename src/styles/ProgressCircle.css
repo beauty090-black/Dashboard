@@ -1,0 +1,40 @@
+:root {
+  --progress: 0deg;
+  --circle-size: 120px;
+  --circle-color: #6e35d4;
+  --circle-bg: #e6e2f5;
+}
+
+.progress-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--circle-size);
+  height: var(--circle-size);
+}
+
+.progress-circle {
+  width: var(--circle-size);
+  height: var(--circle-size);
+  border-radius: 50%;
+  background: conic-gradient(
+    var(--circle-color) var(--progress),
+    var(--circle-bg) var(--progress)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-inner {
+  width: calc(var(--circle-size) - 30px);
+  height: calc(var(--circle-size) - 30px);
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: var(--circle-color);
+  font-size: 20px;
+}

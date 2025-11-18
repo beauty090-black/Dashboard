@@ -1,0 +1,39 @@
+.course-card{
+  background: var(--card);
+  padding:16px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+  display:flex;
+  flex-direction:column;
+  min-height:220px;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.course-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
+
+.card-thumb {
+  height:110px;
+  background: linear-gradient(135deg,#eef2ff 0%, #f8f7ff 100%);
+  border-radius:12px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.course-tag {
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  background:var(--accent-soft);
+  color:var(--accent);
+  font-weight:700;
+  font-size:12px;
+}
+
+.course-title { margin:10px 0 0; font-size:14px; font-weight:800; line-height:1.2; }
+
+.course-meta { display:flex; align-items:center; justify-content:space-between; margin-top:auto; }
+.mentor { display:flex; gap:8px; align-items:center; }
+.mentor img { width:36px; height:36px; border-radius:8px; }
+.mentor-name{ font-weight:700; font-size:13px; }
+.mentor-role{ font-size:12px; color:var(--muted); }
+
+.progress-bar { width:96px; height:8px; background:#eee; border-radius:999px; overflow:hidden; }
+.progress-bar > div { height:100%; background:var(--accent); border-radius:999px; }

@@ -1,0 +1,13 @@
+:root{
+  --bg: #f4f5f7;
+  --card: #ffffff;
+  --muted: #666b72;
+  --accent: #7c3aed;
+  --accent-soft: #efe8ff;
+  --glass: rgba(255,255,255,0.6);
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --shadow-sm: 0 3px 10px rgba(0,0,0,0.06);
+  --shadow-md: 0 6px 20px rgba(0,0,0,0.08);
+  --max-width: 1280px;
+}
