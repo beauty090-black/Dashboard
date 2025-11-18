@@ -13,7 +13,7 @@ export default function CourseCard({ tag, title, mentor }){
 
       <div className="course-meta row" style={{marginTop:12}}>
         <div className="mentor">
-          <img src="/src/assets/avatar-2 . svg" alt="mentor" />
+          <img src="/src/assets/avatar-2.svg" alt="mentor" />
           <div>
             <div className="mentor-name">{mentor}</div>
             <div className="mentor-role">Mentor</div>

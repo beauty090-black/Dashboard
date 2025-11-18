@@ -16,7 +16,7 @@ export default function Navbar(){
         <button className="icon-btn">✉</button>
         <button className="icon-btn">🔔</button>
         <div className="profile row">
-          <img src="/src/assets/avatar-1 . svg" alt="me" />
+          <img src="/src/assets/avatar-1.svg" alt="me" />
           <div className="profile-name">Jason Ranti</div>
         </div>
       </div>

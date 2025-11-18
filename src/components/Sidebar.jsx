@@ -19,7 +19,7 @@ export default function Sidebar(){
           <div style={{fontSize:13, color:"var(--muted)", fontWeight:700}}>Friends</div>
           <div className="friend-list">
             <div className="friend">
-              <img src="/src/assets/avatar-1 . svg" alt="f"/>
+              <img src="/src/assets/avatar-1.svg" alt="f"/>
               <div>
                 <div className="friend-name">Bagas Mahpie</div>
                 <div className="friend-role">Friend</div>
@@ -33,7 +33,7 @@ export default function Sidebar(){
               </div>
             </div>
             <div className="friend">
-              <img src="/src/assets/avatar-3 . svg" alt="f"/>
+              <img src="/src/assets/avatar-3.svg" alt="f"/>
               <div>
                 <div className="friend-name">Jhon Tosan</div>
                 <div className="friend-role">Friend</div>
