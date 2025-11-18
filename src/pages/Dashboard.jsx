@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Narbar";
+import Navbar from "../components/Navbar";
 import CourseCard from "../components/CourseCard";
 import StatsCard from "../components/StatsCard";
 import MentorCard from "../components/MentorCard";
