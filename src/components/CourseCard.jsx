@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Coursecard.css";
+import "../styles/CourseCard.css"
 
 export default function CourseCard({ tag, title, mentor }){
   return (
